@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fieldset Example</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        form{
+            width: 300px;
+            margin: auto;
+        }
+
+        fieldset{
+            border: 2px solid #3498db;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        legend{
+            font-size: 20px;
+            font-weight: bold;
+            color: #2c3e50;
+            padding: 0 10px;
+        }
+
+        input{
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button{
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: #2c3e50;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h2>User Details Form</h2>
+
+    <form>
+        <fieldset>
+            <legend>User Information</legend>
+
+            <label>Name:</label>
+            <input type="text"><br><br>
+
+            <label>Email:</label>
+            <input type="email"><br><br>
+
+            <label>Phone:</label>
+            <input type="tel"><br><br>
+        </fieldset><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
